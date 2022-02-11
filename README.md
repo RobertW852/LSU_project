@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @APatel19-stack
+- 👋 Hi, I’m @APatel19
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning HTML, Python, Javascript, Ruby
 - 💞️ I’m looking to collaborate on Data Science and analysis project
