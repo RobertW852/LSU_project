@@ -1,0 +1,59 @@
+package lexer;
+
+import java.util.*;
+import java.io.*;
+
+
+public class Lexer {
+
+    ArrayList<String> tocken = new ArrayList<String>();
+    enum special_Token{IF, ELSE, AND, WHILE, FOR, FUNCTION, OR, EOF};
+    
+    public static void tokenizer(String[] args) throws IOException{
+            
+    }
+    
+    public static void parser(){
+        
+    }
+    
+    public void loadlexer() {
+          tocken.add("if","IF");
+          tocken.add("for","FOR");
+          tocken.add("while","WHILE");
+          tocken.add("function","FUNCTION");
+          tocken.add("return","RETURN");
+          tocken.add("int","INT");
+          tocken.add("else","ELSE");
+          tocken.add("do","DO");
+          tocken.add("break","BREAK");
+          tocken.add("end","END");
+          tocken.add("=","ASSIGN");
+          tocken.add("+","ADD");
+          tocken.add("-","SUB");
+          tocken.add("else","ELSE");
+          tocken.add("*","MUL");
+          tocken.add("/","DIV");
+          tocken.add("%","MOD");
+          tocken.add(">","GT");
+          tocken.add("<","LT");
+          tocken.add(">=","GE");
+          tocken.add("<=","LE");
+          tocken.add("++","INC");
+          tocken.add("(","LP");
+          tocken.add(")","RP");
+          tocken.add("{","LB");
+          tocken.add("}","RB");
+          tocken.add("|","OR");
+          tocken.add("&","AND");
+          tocken.add("==","EE");
+          tocken.add("!","NEG");
+          tocken.add(",","COMMA");
+          tocken.add(";","SEMI");
+          
+    }
+    
+}
+
+
+
